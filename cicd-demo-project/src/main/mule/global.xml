@@ -4,11 +4,7 @@
 	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
-	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="869fea11-ff5a-4476-87ff-4295551e7bc6" >
+	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="817e594a-03e0-4772-9d5d-2bb8430ac8ed" >
 		<http:listener-connection host="0.0.0.0" port="8081" />
 	</http:listener-config>
-	<flow name="cicd-demo-projectFlow" doc:id="97489be4-b906-438c-b3b5-0442586d8567" >
-		<http:listener doc:name="Listener" doc:id="6e2b63a2-b292-45ce-b30f-176d67ef5b84" config-ref="HTTP_Listener_config" path="/cicd"/>
-		<logger level="INFO" doc:name="Logger" doc:id="14a21111-0635-4325-90ce-7976bc9ea347" message="Demo Project for CICD Pipeline"/>
-	</flow>
 </mule>
