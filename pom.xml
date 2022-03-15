@@ -35,7 +35,7 @@
 					<muleVersion>4.4.0</muleVersion>
 					<username>masthanmar2k22</username>
 					<password>Masthan@123</password>
-					<environment>SANDBOX</environment>
+					<environment>Sandbox</environment>
 					<applicationName>cicd-demo-project-meetup</applicationName>
 					<businessGroup>CICD</businessGroup>
 					<workerType>MICRO</workerType>
