@@ -32,14 +32,14 @@
 				<configuration>
 				<cloudhubHubDeployment>
 					<uri>https://anypoint.mulesoft.com</uri>
-					<muleVersion>${mule.version}</muleVersion>
-					<username>${anypoint.username}</username>
-					<password>${anypoint.password}</password>
-					<environment>${env}</environment>
-					<applicationName>${name}</applicationName>
-					<businessGroup>${business}</businessGroup>
-					<workerType>${worker.type}</workerType>
-					<workers>${workers}</workers>
+					<muleVersion>4.4.0</muleVersion>
+					<username>masthanmar2k22</username>
+					<password>Masthan@123</password>
+					<environment>SANDBOX</environment>
+					<applicationName>cicd-demo-project-meetup</applicationName>
+					<businessGroup>CICD</businessGroup>
+					<workerType>MICRO</workerType>
+					<workers>1</workers>
 					<objectStoreV2>true</objectStoreV2>
 				</cloudhubHubDeployment>
 				<classifier>mule-application</classifier>
