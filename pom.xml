@@ -36,9 +36,9 @@
 					<username>${anypoint.username}</username>
 					<password>${anypoint.password}</password>
 					<environment>${env}</environment>
-					<applicationName>${appname}</applicationName>
+					<applicationName>${name}</applicationName>
 					<businessGroup>${business}</businessGroup>
-					<workerType>${vCore}</workerType>
+					<workerType>${worker.type}</workerType>
 					<workers>${workers}</workers>
 					<objectStoreV2>true</objectStoreV2>
 				</cloudhubHubDeployment>
