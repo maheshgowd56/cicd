@@ -41,7 +41,7 @@
 					<applicationName>${cloudhub.app}</applicationName>
 					<businessGroup>${cloudhub.bg}</businessGroup>
 					<workerType>${cloudhub.vCore}</workerType>
-					<workers>{cloudhub.worker}</workers>
+					<workers>${cloudhub.worker}</workers>
 					<objectStoreV2>true</objectStoreV2>
 				</cloudHubDeployment>
 
