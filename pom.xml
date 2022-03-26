@@ -38,7 +38,7 @@
 					<environment>${cloudhub.environment}</environment>
 					<applicationName>${cloudhub.app}</applicationName>
 					<businessGroup>${cloudhub.bg}</businessGroup>
-					<workerType>${cloudhub.vCore}</workerType>
+					<workerType></workerType>
 					<workers>${cloudhub.worker}</workers>
 					<objectStoreV2>true</objectStoreV2>
 			</cloudHubDeployment>
